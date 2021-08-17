@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Arapey&family=Old+Standard+TT:ital,wght@0,700;1,400&display=swap');
+body {
+    background: url(img/index_background.png);
+    background-size: 1560px 988px;
+}
+
+.personagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icones-personagens img {
+    box-shadow: 0 0 1em rgba(102, 23, 23, 0.5);
+    height: 280px;
+    width: 280px;
+    border-radius: 80px;
+    border-color: #13A4CC;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.icones-personagens img:hover {
+    box-shadow: 0 0 1em rgba(102, 23, 23, 0.5);
+    border-radius: 80px;
+    border-color: #203EAD;
+    border-width: 4px;
+    border-style: solid;
+}
+
+.titulo1 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 80px;
+    margin: 20px;
+    text-align: justify;
+    font-weight: bolder;
+    background-image: linear-gradient(to bottom, #13b5c7, #1298bd, #1869ac, #203EAD);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo2 {
+    font-family: 'Old Standard TT', serif;
+    font-size: 63px;
+    font-weight: bolder;
+    margin: 20px;
+    background-image: linear-gradient(to bottom, #16afc0fd, #128daf, #19629e, #172e7e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.resuminho {
+    background: rgb(3, 151, 209, 0.7);
+    box-shadow: 0 0 1em rgb(15, 15, 15, 0.5);
+    font-family: 'Adamina', serif;
+    font-size: 30px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.pergunta-personagem {
+    background: rgb(3, 151, 209, 0.7);
+    box-shadow: 0 0 1em rgb(15, 15, 15, 0.5);
+    font-family: 'Adamina', serif;
+    font-size: 16px;
+    display: flex;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 490px;
+    margin-right: 100px;
+    border-radius: 30px;
+    padding: 14px
+}
+
+a {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 20px;
+    background-image: linear-gradient(to bottom, #16C6DA, #13A4CC, #1C74BD, #203EAD);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    font-size: 50px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+    .titulo1 {
+        font-size: 80px;
+        text-align: center;
+    }
+    .resuminho {
+        font-size: 25px;
+        text-align: center;
+        text-align: center;
+        background-position: center;
+    }
+    .personagens {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 200px
+    }
+    .pergunta-personagem {
+        font-size: 25px;
+        text-align: center;
+    }
+}

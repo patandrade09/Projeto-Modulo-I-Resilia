@@ -1,0 +1,116 @@
+        @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Arapey&family=Old+Standard+TT:ital,wght@0,700;1,400&display=swap');
+        body {
+            background: url(../img/fases-luffy.png);
+            background-size: 1537px 960px;
+        }
+        
+        .titulo-luffy {
+            font-family: 'Old Standard TT', serif;
+            font-size: 80px;
+            margin: 30px;
+            text-align: center;
+            font-weight: bolder;
+            background-image: linear-gradient(to bottom, #18c2d4, #1797bb, #1e7ac5, #213ea8);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .resumo-luffy {
+            background: rgb(3, 151, 209, 0.7);
+            box-shadow: 0 0 1em rgb(15, 15, 15, 0.5);
+            font-family: 'Adamina', serif;
+            font-size: 30px;
+            display: flex;
+            margin-left: 100px;
+            margin-right: 100px;
+            text-align: justify;
+            border-radius: 20px;
+            padding: 1%;
+        }
+        
+        .botao-luffy {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            margin: 20px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        button {
+            margin: 95px;
+            padding: 1%;
+            font-size: 30px;
+            font-family: 'Old Standard TT', serif;
+            border-radius: 20px;
+            cursor: pointer;
+            background-image: linear-gradient(to bottom, #13b5c7, #1298bd, #1869ac, #203EAD);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        button:hover {
+            font-weight: bold;
+            font-size: 40px;
+            text-decoration: none;
+            transition: 0.4s;
+        }
+        
+        .coruja-misteriosa {
+            display: flex;
+            justify-content: center;
+            height: 340px;
+            margin: 30px;
+        }
+        
+        .porta {
+            display: flex;
+            justify-content: center;
+            height: 400px;
+            margin: 40px;
+        }
+        
+        .porta img {
+            border-radius: 34px;
+            border-style: groove;
+            border-color: #203EAD;
+            border-width: 4px;
+            -webkit-box-shadow: 4px 5px 5px 0px rgba(50, 50, 50, 0.85);
+            -moz-box-shadow: 4px 5px 5px 0px rgba(50, 50, 50, 0.85);
+            box-shadow: 4px 5px 5px 0px rgba(50, 50, 50, 0.85);
+        }
+        
+        .parabens-luffy {
+            font-family: 'Old Standard TT', serif;
+            font-size: 70px;
+            margin: 30px;
+            text-align: justify;
+            font-weight: bolder;
+            background-image: linear-gradient(to bottom, #7013c7, #4012bd, #8a18ac, #9120ad);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .gif {
+            display: flex;
+            flex-direction: column;
+            height: 189px;
+            margin: 40px;
+        }
