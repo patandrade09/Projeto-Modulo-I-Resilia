@@ -89,6 +89,10 @@ body {
 }
 
 a {
+    text-decoration: none;
+}
+
+.nomes {
     font-size: 40px;
     font-weight: bolder;
     margin: 20px;
@@ -100,7 +104,6 @@ a {
     -webkit-text-stroke-color: #000;
     display: flex;
     justify-content: center;
-    text-decoration: none;
 }
 
 a:hover {
